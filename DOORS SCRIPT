@@ -1,0 +1,29 @@
+local PabloLib = loadstring(game:HttpGet(
+local window = PabloLib:Create(
+"Anasmods")
+
+---tabs---
+
+local tab1 = window:CreateTab("Godmode")
+local tab2 = window:CreateTab("Bypassanticheat")
+local tab3 = window:CreateTab("RemoveSeek")
+local tab4 = window:CreateTab("esp key")
+local tab5 = window:CreateTab("Remove screech")
+local tab6 = window:CreateTab("Remove Rush and ambush")
+local tab7 = window:CreateTab("Instant intract")
+local tab8 = window:CreateTab("Esp trap")
+local tab9 = window:CreateTab("Auto library code in chat")
+local tab10 = window:CreateTab("Give crucifix workable")
+local tab11 = window:CreateTab("Auto collect gold")
+local tab12 = window:CreateTab("Freeze Figure")
+local tab13 = window:CreateTab("Wallhack Best")
+
+---buttons---
+
+tab1:CreateButton("King x bobhub", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+end)
+
+tab1:CreateTextbox("Change speed", function(a)
+game players local players character humanoid walkspeed= a
+print(a)
